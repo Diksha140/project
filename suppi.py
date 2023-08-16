@@ -1,7 +1,7 @@
 from flask import *  
 app = Flask(__name__)  
   
-@app.route('/login',methods = ['POST'])  
+@app.route('/',methods = ['POST'])  
 def login():  
       uname=request.form['uname']  
       passwrd=request.form['pass']  
